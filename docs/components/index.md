@@ -1,18 +1,13 @@
 # Components
 
+## Architecture
 
-## Structure
-
-🔗 [**Structure**](console/index.md)
-
+🔗 [**Read More: Architecture**](architecture/index.md)
 
 ## Prototype
 
-🔗 [**Prototype**](prototype/index.md)
-
+🔗 [**Read More: Prototype**](prototype/index.md)
 
 ## PropTypes
 
-- recycle proptype 
-- obbligatorie sono quando necessario
-- crea prop specifiche 
+🔗 [**Read More: PropTypes**](proptypes/index.md)
