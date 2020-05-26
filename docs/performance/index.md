@@ -1,35 +1,23 @@
 # Performance
 
-## Non fare calcoli all'interno della funzione di return o render
+# Measure And Analyze
 
-## Non sono preoccupanti quanti sono i render ma quando dura un singolo render
-react sa qunndo deve aggiornarsi
-render -> reconcile -> commit
+🔗 [**Read More: Measure And Analyze**](measure/index.md)
 
-# Non abusare di over-ottimizzazione
-useMemo, useCallback, aggiungo strati di controllo in più che anzichè migliorare le performance
-possono rallentare l'applicativo, usa solo quando è necessario
+## Props
 
-# Prop drilling No!
+🔗 [**Read More: Props**](props/index.md)
 
+## Renders
 
-# Crea props specifiche ed evita oggetti con 2 valori
-```javascript
-{
-  name: 'name',
-  surname: 'surname',
-}
-```javascript
-name: 'name',
-surname: 'surname',
-  ```
+🔗 [**Read More: Renders**](renders/index.md)
 
-# Crea `utils` e `helpers` generici 
-DRY, utile anche per test
+## Memoizing
 
+🔗 [**Read More: Memoizing**](memoizing/index.md)
 
-# Lazy loading
+## Lazy Loading
 
+🔗 [**Read More: Lazy Loading**](lazy/index.md)
 
-# Webpm
 
