@@ -2,10 +2,9 @@
 
 ## Console
 
-🔗 [**Console**](console/index.md)
-
+🔗 [**Read More: Console**](console/index.md)
 
 ## Dev Tools
 
-🔗 [**Read More: Dev Tools**](dev-tools/index.md)
+🔗 [**Read More: Dev Tools**](devtools/index.md)
 
