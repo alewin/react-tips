@@ -1,19 +1,17 @@
 # Testing
 
+## Mocking
 
-# Crea mini utils
+🔗 [**Read More: Mocking**](mocking/index.md)
 
-Se una funzione esegu diversi tipi di calcolo, spezzettala in due o più parti,
-sarà più facile da testare 
+## Unit Test
 
-Centralize mock data
+🔗 [**Read More: Unit Test**](unit/index.md)
 
-## End to end
+## E2E Testing
 
-Use a mock API, when for e2e testing, so you can simulate a fast or a slow connection
-+ a11y help selecctor or data-testid
-🔗 [**Read More: End to End Testing**](e2e-testing/index.md)
+🔗 [**Read More: E2E Testing**](e2e/index.md)
 
-## react-testing-library
+## Visual Testing
 
-https://github.com/testing-library/react-testing-library
+🔗 [**Read More: Visual Testing**](visual/index.md)
