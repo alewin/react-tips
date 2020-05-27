@@ -19,7 +19,7 @@ module.exports = {
         configPath: `src/config`,
         docsPath: `src/docs`,
         githubUrl: `https://github.com/alewin/react-tips`,
-        baseDir: `examples/gatsby-theme-docs`,
+        baseDir: `src/docs`,
       },
     },
     {
