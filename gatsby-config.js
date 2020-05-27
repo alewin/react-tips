@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `React tips`,
     siteTitleShort: `React tips`,
     siteDescription: `React tips`,
-    siteUrl: `https://github.com/alewin/react-tips`,
+    siteUrl: `https://react-tips.netlify.app/`,
     siteAuthor: `React tips`,
     siteImage: `/cover.png`,
     siteLanguage: `en`,
@@ -18,15 +18,15 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
+        githubUrl: `https://github.com/alewin/react-tips`,
         baseDir: `examples/gatsby-theme-docs`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `React Tips`,
+        short_name: `React Tips`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://react-tips.netlify.app`,
       },
     },
     `gatsby-plugin-offline`,
