@@ -3,21 +3,80 @@
 - label: 'Introduction'
   link: '/'
 
-- label: 'Contribute'
-  link: '/contribute'
-
-- label: Usage
+- label: Contribute
   items:
+    - label: 'How to Contribute'
+      link: '/contribute'
     - label: 'Creating docs'
       link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
+
+- label: Components
+  items:
+    - label: 'Architecture'
+      link: 'components/architecture'
+    - label: 'Proptypes'
+      link: 'components/proptypes'
+    - label: 'Prototype'
+      link: 'components/prototype'
+
+- label: Generic Tips
+  items:
+    - label: 'Conventions'
+      link: 'generic/conventions'
+
+- label: Performance
+  items:
+    - label: 'Lazy'
+      link: 'performance/lazy'
+    - label: 'Measure'
+      link: 'performance/measure'
+    - label: 'Memoizing'
+      link: 'performance/memoizing'
+    - label: 'Props'
+      link: 'performance/props'
+
+
+- label: Debugging
+  items:
+    - label: 'Console'
+      link: 'debugging/console'
+    - label: 'Dev Tools'
+      link: 'debugging/devtools'
+
+
+- label: State Managment
+  items:
+    - label: 'Context'
+      link: 'statemanagement/context'
+    - label: 'Immutability'
+      link: 'statemanagement/immutability'
+    - label: 'Normalization'
+      link: 'statemanagement/Normalize'
+    - label: 'Portions'
+      link: 'statemanagement/portions'
+
+- label: Testing
+  items:
+    - label: 'End to End'
+      link: 'testing/s2s'
+    - label: 'Mock'
+      link: 'testing/mock'
+    - label: 'Unit'
+      link: 'testing/unit'
+    - label: 'Visual'
+      link: 'testing/visual'
 
 - label: Tools
-  link: '/getting-started'
   items:
     - label: 'Bundle'
-      link: '/tools/bundle'
+      link: 'tools/bundle'
+    - label: 'DevTools'
+      link: 'tools/devtools'
+    - label: 'Linter'
+      link: 'tools/linter'
+    - label: 'Packages'
+      link: 'tools/packages'
+    - label: 'UI'
+      link: 'tools/ui'
+
 
