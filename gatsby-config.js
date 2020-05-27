@@ -17,7 +17,7 @@ module.exports = {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
         configPath: `src/config`,
-        docsPath: `docs`,
+        docsPath: `src/docs`,
         githubUrl: `https://github.com/rocketseat/gatsby-themes`,
         baseDir: `examples/gatsby-theme-docs`,
       },

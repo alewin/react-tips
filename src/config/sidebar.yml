@@ -3,8 +3,8 @@
 - label: 'Introduction'
   link: '/'
 
-- label: 'Getting started'
-  link: '/getting-started'
+- label: 'Contribute'
+  link: '/contribute'
 
 - label: Usage
   items:

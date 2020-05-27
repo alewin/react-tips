@@ -12,12 +12,12 @@ In this way it is possible to observe which packages and / or libraries occupy m
 #### If a library is essential, how can I decrease my boundle size?
 If the library allows it, it is advisable to import only the functions that are used
 
-```javascript
+```js title=index.js
 import dateFns from 'my-date-fns' // 200KB
 dateFns.subDays(...)
 ```
 
-```javascript
+```js title=index.js
 import subDays from 'date-fns/subDays' // 2KB
 subDays(...)
 ```
