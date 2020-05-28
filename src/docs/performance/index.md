@@ -21,3 +21,7 @@
 🔗 [**Read More: Lazy Loading**](lazy/index.md)
 
 
+## Virtualization
+
+🔗 [**Read More: Virtualization**](virtualization/index.md)
+

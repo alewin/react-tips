@@ -1,5 +1,18 @@
 # Memoizing
 
+
+- `Pure Component`, `React.memo`: remove unecessary re-render (not all)
+
+```javascript
+export class Demo extend React.PureComponent { }
+```
+
+```javascript
+export const Demo = React.memo(()=>{}, [])
+```
+
+
+
 # Don't over-optimize
 
 `useMemo`, `useCallback`, add more layers of control. Instead of improving performance
