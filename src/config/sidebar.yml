@@ -53,7 +53,7 @@
     - label: 'Immutability'
       link: 'statemanagement/immutability'
     - label: 'Normalization'
-      link: 'statemanagement/Normalize'
+      link: 'statemanagement/normalize'
     - label: 'Portions'
       link: 'statemanagement/portions'
 
