@@ -32,6 +32,8 @@
       link: 'performance/measure'
     - label: 'Memoizing'
       link: 'performance/memoizing'
+    - label: 'Virtualization'
+      link: 'performance/virtualization'
     - label: 'Props'
       link: 'performance/props'
 
