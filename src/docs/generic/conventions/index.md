@@ -20,7 +20,7 @@ getNames({ nick:'sno', sur: "sur", second: "Two", first: "one", full:"One Two JR
 ---
 
 ## Event Handlers
-- Use a standard for handlers, `onClick`, `onFocus` etc ..
+- Use a standard name convention for handlers, `onClick`, `onFocus` etc ..
 
 ```javascript
 const Demo = () => {
@@ -40,11 +40,30 @@ const Demo = () => {
 
 ---
 
-## Release version and commit message specification
-[Semantic version specification](https://semver.org/)
+## Release version specification
+
+Use a convention for application versions. This will make it easier to identify if a new version includes bugs, features, or breaking changes:
+
+- [Semantic version specification](https://semver.org/)
+
+*Example*
+
+**Current Version: 1.0.0**
+
+```markdown
+- *Patch* 1.0.1 ( bug fixes)
+- *Minor* 1.1.0 ( backward compatible features )
+- *Major* 2.0.0 ( non backward compatible features )
+```
+
+Remember that a *Minor* can also include *bug fixes**, and a *Major* can also include non-backward compatible features, but not vice versa.
 
 
-[Semantic commit message](https://seesparkbox.com/foundry/semantic_commit_messages) can help to indentify a commit with a simply prefix
+## Commit message specification
+
+Use a convention for commit message. This will make it easier to identify if a commit includes docs, feature, bugfix or breaking changes:
+
+- [Semantic commit message](https://seesparkbox.com/foundry/semantic_commit_messages)
 
 ```markdown
 chore: add Oyster build script
